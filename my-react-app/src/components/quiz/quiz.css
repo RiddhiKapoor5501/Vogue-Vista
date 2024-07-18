@@ -1,0 +1,136 @@
+.aesthetic-quiz {
+  color: rgba(0, 0, 0, 0.922);
+  margin: 200px auto;
+  width: 600px;
+  height: auto; /* Allow height to adjust based on content */
+  max-width: 100%;
+  padding: 40px;
+  padding-top: 30px; 
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column; /* Ensure column layout */
+  justify-content: center; /* Center align items vertically */
+  align-items: center; /* Center align items horizontally */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  user-select: none;
+  background-color: rgba(167, 163, 163, 0.5);
+
+}
+
+.ques {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+.aesthetic-quiz ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%; /* Make sure the ul takes full width */
+}
+
+.aesthetic-quiz li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.aesthetic-quiz button {
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  border: 3px solid rgb(243, 224, 201);
+  padding: 12px;
+  margin: 4px;
+  width: 100%; /* Ensure the button takes full width of the container */
+  color: black; /* Ensure the text color is visible */
+  text-align: center; /* Center align text within the button */
+}
+
+.aesthetic-quiz button:hover {
+  background-color: rgba(255, 249, 249, 0.8); /* Light background on hover */
+}
+
+.clickhere{
+  font-weight: lighter;
+  font-size: 15px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 40px;
+  border-radius: 12px;
+  border: 2px solid rgb(42, 40, 40);
+  user-select: none;
+}
+
+.image-text-container {
+  position: relative;
+  
+}
+
+.image-text-container img {
+  /* Image styles */
+  width: 570px; 
+  height: 400px;
+}
+
+.ques {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 10px rgba(0, 0.2, 0.2, 0.5);
+  border-radius: 10px;
+  border: 3px solid rgb(105, 101, 101);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  height: 60px;
+  top: 20%; /* Adjust vertical position */
+  left: 50%; /* Adjust horizontal position */
+  transform: translate(-50%, -50%); /* Center the text within the image */
+  color: rgb(0, 0, 0); /* Adjust text color for better visibility on image */
+}
+
+.image-text-container ul {
+  position: absolute;
+  top: 70%; /* Adjust vertical position */
+  left: 50%; /* Adjust horizontal position */
+  transform: translate(-50%, -50%); /* Center the text within the image */
+  color: rgb(73, 70, 70); /* Adjust text color for better visibility on image */
+  padding: 10px; /* Optional padding for better readability */
+}
+
+.navbar {
+  position: fixed; /* Make the navbar fixed */
+  top: 0; /* Position it at the top of the page */
+  left: 0;  
+  background-color: #fff; /* Set the background color (optional) */
+  padding: 1rem; /* Add some padding (optional) */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow (optional) */
+}
+
+
+.ques{
+  width:100%;
+}
+
+.image-text-container  .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 98.2%;
+  border-radius: 5px;
+  background-color: rgba(167, 163, 163, 0.5);
+}
